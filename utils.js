@@ -1,6 +1,6 @@
 
 /** Generates an `n` character Room ID,
- * like `n` = 4 => "YYYY".
+ * like `generateRoomID(4)` => "YYYY".
  * IDs are uppercase letters, A-Z
  */
 export function generateRoomID(n) {
