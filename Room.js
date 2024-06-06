@@ -20,6 +20,11 @@ export class Room {
     return rooms.get(roomID);
   }
 
+  /** Returns boolean */
+  static roomExists(roomID) {
+    return rooms.has(roomID);
+  }
+
   /** Make a new room */
   constructor(roomID) {
     this.id = roomID;
